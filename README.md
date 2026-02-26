@@ -31,6 +31,10 @@ Tech Stack
 - HTTP REST APIs
 
 - Windows API (WinAPI)
+  
+- Windows Management Instrumentation (WMI)
+  
+- SQL Server
 
 Local persistent storage
 
@@ -38,6 +42,7 @@ Status
 
 - Core communication and command handling are implemented.
 - Ongoing structural improvements and feature expansion are in progress.
+- Web-based frontend UI currently in development
 
 Running Locally
 
@@ -45,8 +50,10 @@ Running Locally
 
 - Open the solution in Visual Studio
 
-- Configure API settings if required
+- Update the SQL Server connection string in appsettings.Development.json to match your local database configuration
 
-- Run the server
+- Ensure the required database exists (or run migrations if configured)
 
-- Start the agent
+- Run the server project
+
+- Start the agent project
