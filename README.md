@@ -24,7 +24,7 @@ Features
 
 - Persistence mechanisms
 
-- Tech Stack
+Tech Stack
 
 - C# / .NET
 
