@@ -1,12 +1,12 @@
-Gateway
+# Gateway
 
-Gateway is a client–server security research framework built to explore backend API design, agent communication, and controlled system interaction. The project is currently in active development.
+Gateway is a client–server security research framework built to explore backend API design, agent communication, and controlled system interaction.
 
-Overview
+### Overview
 
 Gateway uses HTTP-based REST APIs to manage communication between a central server and distributed agents. It is designed to experiment with command execution workflows, custom serialization, and persistence mechanisms within a controlled research environment.
 
-Features
+### Features
 
 - RESTful API communication between server and agents
 
@@ -24,7 +24,7 @@ Features
 
 - Persistence mechanisms
 
-Tech Stack
+### Tech Stack
 
 - C# / .NET
 
@@ -38,22 +38,10 @@ Tech Stack
 
 Local persistent storage
 
-Status
+### Status
 
 - Core communication and command handling are implemented.
 - Ongoing structural improvements and feature expansion are in progress.
 - Web-based frontend UI currently in development
 
-Running Locally
 
-- Clone the repository
-
-- Open the solution in Visual Studio
-
-- Update the SQL Server connection string in appsettings.Development.json to match your local database configuration
-
-- Ensure the required database exists (or run migrations if configured)
-
-- Run the server project
-
-- Start the agent project
